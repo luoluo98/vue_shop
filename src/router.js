@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from './components/Login.vue'
 import Home from './components/Home.vue'
+// welcome 以子路由的规则形式存在home页面中
 import Welcome from './components/Welcome.vue'
 import Users from './components/user/Users.vue'
 

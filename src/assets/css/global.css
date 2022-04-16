@@ -7,20 +7,24 @@ body,
   padding: 0;
 }
 
+/* 卡片区域 上方给一个间隙和文字大小 */
 .el-breadcrumb {
   margin-bottom: 15px;
   font-size: 12px;
 }
 
+/* 重置卡片阴影 */
 .el-card {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
 }
 
+/* 表格与搜索框的间距 */
 .el-table {
   margin-top: 15px;
   font-size: 12px;
 }
 
+/* 分页条与表格之间的间隙 */
 .el-pagination {
   margin-top: 15px;
 }
