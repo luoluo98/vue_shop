@@ -28,6 +28,7 @@ const router = new Router({
         { path: '/rights', component: Rights },
         { path: '/roles', component: Roles },
         { path: '/categories', component: Cate },
+        { path: '/roles', component: Roles }
       ]
     }
   ]
