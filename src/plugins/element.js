@@ -27,7 +27,8 @@ import {
   Tag,
   Tree,
   Select,
-  Option
+  Option,
+  Cascader
 } from 'element-ui'
 
 Vue.use(Button)
@@ -70,3 +71,5 @@ Vue.use(Tree)
 // 导入选择器
 Vue.use(Select)
 Vue.use(Option)
+// 导入级联选择器
+Vue.use(Cascader)
