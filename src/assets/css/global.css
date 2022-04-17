@@ -5,6 +5,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  min-width: 1366px;
 }
 
 /* 卡片区域 上方给一个间隙和文字大小 */
