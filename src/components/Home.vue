@@ -3,7 +3,7 @@
     <!-- 头部区域 -->
     <el-header>
       <div>
-        <img src="../assets/heima.png" alt="">
+        <img src="../assets/logo2.png" alt="">
         <span>电商后台管理系统</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
@@ -133,7 +133,12 @@ export default {
     display: flex;
     align-items: center;
     span {
-      margin-left: 15px;
+      margin-left: 8px;
+    }
+    img {
+      width: 61px;
+      height: 56px;
+      background-color: #373d41;
     }
   }
 }
