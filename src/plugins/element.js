@@ -31,7 +31,12 @@ import {
   Cascader,
   Alert,
   Tabs,
-  TabPane
+  TabPane,
+  Steps,
+  Step,
+  CheckboxGroup,
+  Checkbox,
+  Upload
 } from 'element-ui'
 
 Vue.use(Button)
@@ -81,4 +86,12 @@ Vue.use(Alert)
 // 导入Tab标签页
 Vue.use(Tabs)
 Vue.use(TabPane)
+// 导入步骤条
+Vue.use(Steps)
+Vue.use(Step)
+// 导入复选框
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+// 导入图片上传组件
+Vue.use(Upload)
 
