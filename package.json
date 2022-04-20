@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "element-ui": "^2.4.5",
+    "element-ui": "^2.15.8",
     "lodash": "^4.17.21",
     "vue": "^2.5.22",
     "vue-quill-editor": "^3.0.6",
