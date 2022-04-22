@@ -19,6 +19,8 @@ import GoodsList from './components/goods/List.vue'
 import Add from './components/goods/Add.vue'
 // 导入订单列表组件
 import Order from './components/order/Order.vue'
+// 导入数据列表组件
+import Report from './components/report/Report.vue'
 
 Vue.use(Router)
 
@@ -40,6 +42,7 @@ const router = new Router({
         { path: '/goods', component: GoodsList },
         { path: '/goods/add', component: Add },
         { path: '/orders', component: Order },
+        { path: '/reports', component: Report }
       ]
     }
   ]
