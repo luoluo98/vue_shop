@@ -58,7 +58,7 @@ Vue.use(MenuItem)
 // 面包屑导入
 Vue.use(Breadcrumb)
 Vue.use(BreadcrumbItem)
-//卡片导入
+// 卡片导入
 Vue.use(Card)
 // 栅格导入
 Vue.use(Row)
@@ -102,5 +102,3 @@ Vue.use(Upload)
 
 Vue.use(Timeline)
 Vue.use(TimelineItem)
-
-

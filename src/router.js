@@ -5,7 +5,7 @@ import Home from './components/Home.vue'
 // welcome 以子路由的规则形式存在home页面中
 import Welcome from './components/Welcome.vue'
 import Users from './components/user/Users.vue'
-//导入权限列表组件页面
+// 导入权限列表组件页面
 import Rights from './components/power/Rights.vue'
 // 导入角色列表组件
 import Roles from './components/power/Roles.vue'
