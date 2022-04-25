@@ -1,38 +1,19 @@
-## Project setup
+## 部分页面展示
 
-```
-npm install
-```
+登录页面
+<img src="./img-example/login.png">
+用户管理页面
+<img src="./img-example/users.png">
+商品管理
+<img src="./img-example/goodsAdd.png">
+角色列表
+<img src="./img-example/roles.png">
+分配权限
+<img src="./img-example/roles1.png">
+数据报表
+<img src="./img-example/reports .png">
 
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Run your tests
-
-```
-npm run test
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## 一、电商项目概述
+# 一、电商项目概述
 
 ### **`1. 后台管理系统`**:
 
@@ -558,21 +539,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
      - ① 调用接口获取后台接口数据
      - ② 通过 echarts 的 api 实现报表效果
 
-## 部分页面展示
-
-登录页面
-<img src="./img-example/login.png">
-用户管理页面
-<img src="./img-example/users.png">
-商品管理
-<img src="./img-example/goodsAdd.png">
-角色列表
-<img src="./img-example/roles.png">
-分配权限
-<img src="./img-example/roles1.png">
-数据报表
-<img src="./img-example/reports .png">
-
 <hr>
 
 # 电商管理后台 API 接口文档
@@ -641,18 +607,18 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```json
 {
-    "data": {
-        "id": 500,
-        "rid": 0,
-        "username": "admin",
-        "mobile": "123",
-        "email": "123@qq.com",
-        "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE1MTI1NDQyOTksImV4cCI6MTUxMjYzMDY5OX0.eGrsrvwHm-tPsO9r_pxHIQ5i5L1kX9RX444uwnRGaIM"
-    },
-    "meta": {
-        "msg": "登录成功",
-        "status": 200
-    }
+  "data": {
+    "id": 500,
+    "rid": 0,
+    "username": "admin",
+    "mobile": "123",
+    "email": "123@qq.com",
+    "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE1MTI1NDQyOTksImV4cCI6MTUxMjYzMDY5OX0.eGrsrvwHm-tPsO9r_pxHIQ5i5L1kX9RX444uwnRGaIM"
+  },
+  "meta": {
+    "msg": "登录成功",
+    "status": 200
+  }
 }
 ```
 
@@ -682,26 +648,26 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```json
 {
-    "data": {
-        "totalpage": 5,
-        "pagenum": 4,
-        "users": [
-            {
-                "id": 25,
-                "username": "tige117",
-                "mobile": "18616358651",
-                "type": 1,
-                "email": "tige112@163.com",
-                "create_time": "2017-11-09T20:36:26.000Z",
-                "mg_state": true, // 当前用户的状态
-                "role_name": "炒鸡管理员"
-            }
-        ]
-    },
-    "meta": {
-        "msg": "获取成功",
-        "status": 200
-    }
+  "data": {
+    "totalpage": 5,
+    "pagenum": 4,
+    "users": [
+      {
+        "id": 25,
+        "username": "tige117",
+        "mobile": "18616358651",
+        "type": 1,
+        "email": "tige112@163.com",
+        "create_time": "2017-11-09T20:36:26.000Z",
+        "mg_state": true, // 当前用户的状态
+        "role_name": "炒鸡管理员"
+      }
+    ]
+  },
+  "meta": {
+    "msg": "获取成功",
+    "status": 200
+  }
 }
 ```
 
@@ -732,22 +698,22 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```json
 {
-    "data": {
-        "id": 28,
-        "username": "tige1200",
-        "mobile": "test",
-        "type": 1,
-        "openid": "",
-        "email": "test@test.com",
-        "create_time": "2017-11-10T03:47:13.533Z",
-        "modify_time": null,
-        "is_delete": false,
-        "is_active": false
-    },
-    "meta": {
-        "msg": "用户创建成功",
-        "status": 201
-    }
+  "data": {
+    "id": 28,
+    "username": "tige1200",
+    "mobile": "test",
+    "type": 1,
+    "openid": "",
+    "email": "test@test.com",
+    "create_time": "2017-11-10T03:47:13.533Z",
+    "modify_time": null,
+    "is_delete": false,
+    "is_active": false
+  },
+  "meta": {
+    "msg": "用户创建成功",
+    "status": 201
+  }
 }
 ```
 
@@ -804,17 +770,17 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```json
 {
-    "data": {
-        "id": 503,
-        "username": "admin3",
-        "role_id": 0,
-        "mobile": "00000",
-        "email": "new@new.com"
-    },
-    "meta": {
-        "msg": "查询成功",
-        "status": 200
-    }
+  "data": {
+    "id": 503,
+    "username": "admin3",
+    "role_id": 0,
+    "mobile": "00000",
+    "email": "new@new.com"
+  },
+  "meta": {
+    "msg": "查询成功",
+    "status": 200
+  }
 }
 ```
 
@@ -844,17 +810,17 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```json
 /* 200表示成功，500表示失败 */
 {
-    "data": {
-        "id": 503,
-        "username": "admin3",
-        "role_id": 0,
-        "mobile": "111",
-        "email": "123@123.com"
-    },
-    "meta": {
-        "msg": "更新成功",
-        "status": 200
-    }
+  "data": {
+    "id": 503,
+    "username": "admin3",
+    "role_id": 0,
+    "mobile": "111",
+    "email": "123@123.com"
+  },
+  "meta": {
+    "msg": "更新成功",
+    "status": 200
+  }
 }
 ```
 
@@ -873,11 +839,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```json
 {
-    "data": null,
-    "meta": {
-        "msg": "删除成功",
-        "status": 200
-    }
+  "data": null,
+  "meta": {
+    "msg": "删除成功",
+    "status": 200
+  }
 }
 ```
 
@@ -905,17 +871,17 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```json
 {
-    "data": {
-        "id": 508,
-        "rid": "30",
-        "username": "asdf1",
-        "mobile": "123123",
-        "email": "adfsa@qq.com"
-    },
-    "meta": {
-        "msg": "设置角色成功",
-        "status": 200
-    }
+  "data": {
+    "id": 508,
+    "rid": "30",
+    "username": "asdf1",
+    "mobile": "123123",
+    "email": "adfsa@qq.com"
+  },
+  "meta": {
+    "msg": "设置角色成功",
+    "status": 200
+  }
 }
 ```
 
@@ -944,63 +910,63 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - 响应数据 type=list
 
 ```json
-  {
-    "data": [
-        {
-            "id": 101,
-            "authName": "商品管理",
-            "level": "0",
-            "pid": 0,
-            "path": null
-        },
-        {
-            "id": 102,
-            "authName": "订单管理",
-            "level": "0",
-            "pid": 0,
-            "path": null
-        }
-    ],
-    "meta": {
-        "msg": "获取权限列表成功",
-        "status": 200
+{
+  "data": [
+    {
+      "id": 101,
+      "authName": "商品管理",
+      "level": "0",
+      "pid": 0,
+      "path": null
+    },
+    {
+      "id": 102,
+      "authName": "订单管理",
+      "level": "0",
+      "pid": 0,
+      "path": null
     }
+  ],
+  "meta": {
+    "msg": "获取权限列表成功",
+    "status": 200
+  }
 }
 ```
 
 type=tree
 
 ```json
-  {
-    data: [
-      {
-        id: 101,
-        authName: '商品管理',
-        path: null,
-        pid: 0,
-        children: [
-          {
-            id: 104,
-            authName: '商品列表',
-            path: null,
-            pid: 101,
-            children: [
-              {
-                id: 105,
-                authName: '添加商品',
-                path: null,
-                pid: '104,101'
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    meta: {
-      msg: '获取权限列表成功',
-      status: 200
+{
+  "data": [
+    {
+      "id": 101,
+      "authName": "商品管理",
+      "path": null,
+      "pid": 0,
+      "children": [
+        {
+          "id": 104,
+          "authName": "商品列表",
+          "path": null,
+          "pid": 101,
+          "children": [
+            {
+              "id": 105,
+              "authName": "添加商品",
+              "path": null,
+              "pid": "104,101"
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "meta": {
+    "msg": "获取权限列表成功",
+    "status": 200
   }
+}
 ```
 
 ### 1.4.2. 左侧菜单权限
@@ -1051,38 +1017,38 @@ type=tree
 
 ```json
 {
-    "data": [
+  "data": [
+    {
+      "id": 30,
+      "roleName": "主管",
+      "roleDesc": "技术负责人",
+      "children": [
         {
-            "id": 30,
-            "roleName": "主管",
-            "roleDesc": "技术负责人",
-            "children": [
+          "id": 101,
+          "authName": "商品管理",
+          "path": null,
+          "children": [
+            {
+              "id": 104,
+              "authName": "商品列表",
+              "path": null,
+              "children": [
                 {
-                    "id": 101,
-                    "authName": "商品管理",
-                    "path": null,
-                    "children": [
-                        {
-                            "id": 104,
-                            "authName": "商品列表",
-                            "path": null,
-                            "children": [
-                                {
-                                    "id": 105,
-                                    "authName": "添加商品",
-                                    "path": null
-                                }
-                            ]
-                        }
-                    ]
+                  "id": 105,
+                  "authName": "添加商品",
+                  "path": null
                 }
-            ]
+              ]
+            }
+          ]
         }
-    ],
-    "meta": {
-        "msg": "获取成功",
-        "status": 200
+      ]
     }
+  ],
+  "meta": {
+    "msg": "获取成功",
+    "status": 200
+  }
 }
 ```
 
@@ -1109,15 +1075,15 @@ type=tree
 
 ```json
 {
-    "data": {
-        "roleId": 40,
-        "roleName": "admin2",
-        "roleDesc": "admin2Desc"
-    },
-    "meta": {
-        "msg": "创建成功",
-        "status": 201
-    }
+  "data": {
+    "roleId": 40,
+    "roleName": "admin2",
+    "roleDesc": "admin2Desc"
+  },
+  "meta": {
+    "msg": "创建成功",
+    "status": 201
+  }
 }
 ```
 
@@ -1143,15 +1109,15 @@ type=tree
 
 ```json
 {
-    "data": {
-        "roleId": 31,
-        "roleName": "测试角色",
-        "roleDesc": "测试负责人"
-    },
-    "meta": {
-        "msg": "获取成功",
-        "status": 200
-    }
+  "data": {
+    "roleId": 31,
+    "roleName": "测试角色",
+    "roleDesc": "测试负责人"
+  },
+  "meta": {
+    "msg": "获取成功",
+    "status": 200
+  }
 }
 ```
 
@@ -1171,15 +1137,15 @@ type=tree
 
 ```json
 {
-    "data": {
-        "roleId": 31,
-        "roleName": "测试角色",
-        "roleDesc": "测试角色描述"
-    },
-    "meta": {
-        "msg": "获取成功",
-        "status": 200
-    }
+  "data": {
+    "roleId": 31,
+    "roleName": "测试角色",
+    "roleDesc": "测试角色描述"
+  },
+  "meta": {
+    "msg": "获取成功",
+    "status": 200
+  }
 }
 ```
 
@@ -1197,11 +1163,11 @@ type=tree
 
 ```json
 {
-    "data": null,
-    "meta": {
-        "msg": "删除成功",
-        "status": 200
-    }
+  "data": null,
+  "meta": {
+    "msg": "删除成功",
+    "status": 200
+  }
 }
 ```
 
@@ -1220,11 +1186,11 @@ type=tree
 
 ```json
 {
-    "data": null,
-    "meta": {
-        "msg": "更新成功",
-        "status": 200
-    }
+  "data": null,
+  "meta": {
+    "msg": "更新成功",
+    "status": 200
+  }
 }
 ```
 
@@ -1249,36 +1215,36 @@ type=tree
 
   ```json
   {
-      "data": [
+    "data": [
+      {
+        "id": 101,
+        "authName": "商品管理",
+        "path": null,
+        "children": [
           {
-              "id": 101,
-              "authName": "商品管理",
-              "path": null,
-              "children": [
-                  {
-                      "id": 104,
-                      "authName": "商品列表",
-                      "path": null,
-                      "children": [
-                          {
-                              "id": 105,
-                              "authName": "添加商品",
-                              "path": null
-                          },
-                          {
-                              "id": 116,
-                              "authName": "修改",
-                              "path": null
-                          }
-                      ]
-                  }
-              ]
+            "id": 104,
+            "authName": "商品列表",
+            "path": null,
+            "children": [
+              {
+                "id": 105,
+                "authName": "添加商品",
+                "path": null
+              },
+              {
+                "id": 116,
+                "authName": "修改",
+                "path": null
+              }
+            ]
           }
-      ],
-      "meta": {
-          "msg": "取消权限成功",
-          "status": 200
+        ]
       }
+    ],
+    "meta": {
+      "msg": "取消权限成功",
+      "status": 200
+    }
   }
   ```
 
@@ -1309,44 +1275,44 @@ type=tree
 
 ```json
 {
-    "data": [
+  "data": [
+    {
+      "cat_id": 1,
+      "cat_name": "大家电",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "children": [
         {
-            "cat_id": 1,
-            "cat_name": "大家电",
-            "cat_pid": 0,
-            "cat_level": 0,
-            "cat_deleted": false,
-            "children": [
-                {
-                    "cat_id": 3,
-                    "cat_name": "电视",
-                    "cat_pid": 1,
-                    "cat_level": 1,
-                    "cat_deleted": false,
-                    "children": [
-                        {
-                            "cat_id": 6,
-                            "cat_name": "曲面电视",
-                            "cat_pid": 3,
-                            "cat_level": 2,
-                            "cat_deleted": false
-                        },
-                        {
-                            "cat_id": 7,
-                            "cat_name": "海信",
-                            "cat_pid": 3,
-                            "cat_level": 2,
-                            "cat_deleted": false
-                        }
-                    ]
-                }
-            ]
+          "cat_id": 3,
+          "cat_name": "电视",
+          "cat_pid": 1,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "children": [
+            {
+              "cat_id": 6,
+              "cat_name": "曲面电视",
+              "cat_pid": 3,
+              "cat_level": 2,
+              "cat_deleted": false
+            },
+            {
+              "cat_id": 7,
+              "cat_name": "海信",
+              "cat_pid": 3,
+              "cat_level": 2,
+              "cat_deleted": false
+            }
+          ]
         }
-    ],
-    "meta": {
-        "msg": "获取成功",
-        "status": 200
+      ]
     }
+  ],
+  "meta": {
+    "msg": "获取成功",
+    "status": 200
+  }
 }
 ```
 
@@ -1366,16 +1332,16 @@ type=tree
 
 ```json
 {
-    "data": {
-        "cat_id": 62,
-        "cat_name": "相框",
-        "cat_pid": "1",
-        "cat_level": "1"
-    },
-    "meta": {
-        "msg": "创建成功",
-        "status": 201
-    }
+  "data": {
+    "cat_id": 62,
+    "cat_name": "相框",
+    "cat_pid": "1",
+    "cat_level": "1"
+  },
+  "meta": {
+    "msg": "创建成功",
+    "status": 201
+  }
 }
 ```
 
@@ -1702,25 +1668,23 @@ type=tree
 
 ```json
 {
-  "goods_name":"test_goods_name2",
+  "goods_name": "test_goods_name2",
   "goods_cat": "1,2,3",
-  "goods_price":20,
-  "goods_number":30,
-  "goods_weight":40,
-  "goods_introduce":"abc",
-  "pics":[
-    {"pic":"/tmp_uploads/30f08d52c551ecb447277eae232304b8"}
-    ],
-  "attrs":[
+  "goods_price": 20,
+  "goods_number": 30,
+  "goods_weight": 40,
+  "goods_introduce": "abc",
+  "pics": [{ "pic": "/tmp_uploads/30f08d52c551ecb447277eae232304b8" }],
+  "attrs": [
     {
-      "attr_id":15,
-      "attr_value":"ddd"
+      "attr_id": 15,
+      "attr_value": "ddd"
     },
     {
-      "attr_id":15,
-      "attr_value":"eee"
+      "attr_id": 15,
+      "attr_value": "eee"
     }
-    ]
+  ]
 }
 ```
 
@@ -1748,57 +1712,57 @@ type=tree
 
 ```json
 {
-    "data": {
+  "data": {
+    "goods_id": 145,
+    "goods_name": "test_goods_name2",
+    "goods_price": 20,
+    "cat_id": 1,
+    "goods_number": 30,
+    "goods_weight": 40,
+    "goods_introduce": "abc",
+    "goods_big_logo": "",
+    "goods_small_logo": "",
+    "goods_state": 1,
+    "add_time": 1512962370,
+    "upd_time": 1512962370,
+    "hot_mumber": 0,
+    "is_promote": false,
+    "pics": [
+      {
+        "pics_id": 397,
         "goods_id": 145,
-        "goods_name": "test_goods_name2",
-        "goods_price": 20,
-        "cat_id": 1,
-        "goods_number": 30,
-        "goods_weight": 40,
-        "goods_introduce": "abc",
-        "goods_big_logo": "",
-        "goods_small_logo": "",
-        "goods_state": 1,
-        "add_time": 1512962370,
-        "upd_time": 1512962370,
-        "hot_mumber": 0,
-        "is_promote": false,
-        "pics": [
-            {
-                "pics_id": 397,
-                "goods_id": 145,
-                "pics_big": "uploads/goodspics/big_30f08d52c551ecb447277eae232304b8",
-                "pics_mid": "uploads/goodspics/mid_30f08d52c551ecb447277eae232304b8",
-                "pics_sma": "uploads/goodspics/sma_30f08d52c551ecb447277eae232304b8"
-            }
-        ],
-        "attrs": [
-            {
-                "goods_id": 145,
-                "attr_id": 15,
-                "attr_value": "ddd",
-                "add_price": null,
-                "attr_name": "fffffff",
-                "attr_sel": "many",
-                "attr_write": "list",
-                "attr_vals": ""
-            },
-            {
-                "goods_id": 145,
-                "attr_id": 15,
-                "attr_value": "eee",
-                "add_price": null,
-                "attr_name": "fffffff",
-                "attr_sel": "many",
-                "attr_write": "list",
-                "attr_vals": ""
-            }
-        ]
-    },
-    "meta": {
-        "msg": "创建商品成功",
-        "status": 201
-    }
+        "pics_big": "uploads/goodspics/big_30f08d52c551ecb447277eae232304b8",
+        "pics_mid": "uploads/goodspics/mid_30f08d52c551ecb447277eae232304b8",
+        "pics_sma": "uploads/goodspics/sma_30f08d52c551ecb447277eae232304b8"
+      }
+    ],
+    "attrs": [
+      {
+        "goods_id": 145,
+        "attr_id": 15,
+        "attr_value": "ddd",
+        "add_price": null,
+        "attr_name": "fffffff",
+        "attr_sel": "many",
+        "attr_write": "list",
+        "attr_vals": ""
+      },
+      {
+        "goods_id": 145,
+        "attr_id": 15,
+        "attr_value": "eee",
+        "add_price": null,
+        "attr_name": "fffffff",
+        "attr_sel": "many",
+        "attr_write": "list",
+        "attr_vals": ""
+      }
+    ]
+  },
+  "meta": {
+    "msg": "创建商品成功",
+    "status": 201
+  }
 }
 ```
 
@@ -2489,7 +2453,6 @@ brew install GraphicsMagick
     ],
     "meta": { "status": 200, "message": "获取物流信息成功！" }
   }
-
   ```
 
 ## 1.11. 数据统计
